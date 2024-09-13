@@ -1,0 +1,103 @@
+@import "../../responsive.scss";
+
+.hero {
+  padding: 180px 0 0px;
+  @include sm {
+    padding: 90px 0 0;
+  }
+  text-align: center;
+  .hero-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+
+    h6 {
+      background: linear-gradient(to right, #627fff, #865bff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: medium;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 6.4px;
+      margin-bottom: 0;
+
+      @include sm {
+        font-size: 14px;
+      }
+    }
+  }
+  .hero-heading {
+    h1 {
+      font-family: "Roboto", sans-serif;
+      font-size: 76px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 0;
+      margin: 20px 0 18px;
+      span {
+        display: block;
+      }
+
+      @include md {
+        font-size: 35px;
+      }
+      @include sm {
+        font-size: 25px;
+      }
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      color: #77798f;
+      font-size: 20px;
+      font-weight: normal;
+      max-width: 550px;
+      margin: auto;
+
+      @include md {
+        font-size: 16px;
+      }
+
+      @include sm {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .hero-btns {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+    position: relative;
+    z-index: 1;
+
+    @include sm {
+        flex-direction: column;
+        gap: 10px 0;
+
+        .btnn, .secondary-btnn-purple {
+            width: 100%;
+        }
+    }
+    
+  }
+  .hero-img {
+    transform: translateY(-100px);
+    pointer-events: none;
+
+    @include sm {
+        transform: translateY(0);
+    }
+  }
+}
+
+
+
+/* SECTION 2 */
+.sec2 {
+    padding-top: 0;
+}

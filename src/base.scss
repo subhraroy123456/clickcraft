@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  overflow-x: clip;
+  overflow-y: visible;
+  background: #010314;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+section {
+  padding: 70px 0;
+}
+.top-heading h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 54px;
+  color: #fff;
+}
+.top-heading p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #77798f;
+}
+.btnn {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #7241ff;
+  padding: 15px 30px;
+  background: #010314;
+  text-transform: capitalize;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+.btnn:hover {
+  background: #7241ff;
+  box-shadow: 0px 0px 10px 0 #7241ff;
+}
+.secondary-btnn-purple {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #2a2b3a;
+  padding: 15px 30px;
+  background: #010314;
+  text-transform: capitalize;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+.secondary-btnn-purple:hover {
+  box-shadow: 0px 0px 10px 0 #7241ff;
+  border-color: #7241ff;
+}
